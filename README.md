@@ -7,13 +7,13 @@ Aquest projecte és un catàleg digital de cotxes esportius i icònics. L'object
 ## Explicació del layout i estructura
 El projecte està estructurat de la següent manera:
 
-    - Header: amb el títol "Catàleg de Cotxes" i un breu text, amb un menú de navegació.
+- Header: amb el títol "Catàleg de Cotxes" i un breu text, amb un menú de navegació.
 ![imatge](https://github.com/user-attachments/assets/f73741d1-6206-46a4-a8c4-ecf919ba31e0)
 
-    - Main: secció principal amb una llista de cotxes.
+- Main: secció principal amb una llista de cotxes.
 ![imatge](https://github.com/user-attachments/assets/d5444d5e-6bf9-4710-98d6-41f5fc967c7d)
 
-    - Footer: inclou un botó per canviar el layout (preparat per JavaScript) i el peu de pàgina amb drets d’autor.
+- Footer: inclou un botó per canviar el layout (preparat per JavaScript) i el peu de pàgina amb drets d’autor.
 ![imatge](https://github.com/user-attachments/assets/cb9713e7-d8b6-4233-9078-4e217fed5a9e)
 
 
