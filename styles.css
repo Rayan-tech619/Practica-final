@@ -1,4 +1,3 @@
-/* Contenedor general de las tarjetas */
 .car-list {
   display: flex;
   flex-direction: column;
@@ -8,7 +7,6 @@
   margin: 0 auto;
 }
 
-/* Cada tarjeta */
 .car {
   display: flex;
   background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
@@ -18,12 +16,10 @@
   transition: transform 0.3s ease;
 }
 
-/* Zoom al pasar el ratón */
 .car:hover {
   transform: scale(1.02);
 }
 
-/* Imagen del coche */
 .car img {
   width: 300px;
   height: auto;
@@ -31,7 +27,6 @@
   flex-shrink: 0;
 }
 
-/* Contenido textual: título + párrafos */
 .car-content {
   padding: 20px;
   display: flex;
@@ -41,7 +36,6 @@
   gap: 10px;
 }
 
-/* Nombre del coche grande y destacado */
 .car-content h2 {
   margin: 0;
   font-size: 2em;
@@ -49,7 +43,7 @@
   color: #b22222; /* color tipo Ferrari */
 }
 
-/* Párrafos debajo */
+
 .car-content p {
   margin: 0;
   font-size: 1.1em;
@@ -57,7 +51,7 @@
   line-height: 1.4;
 }
 
-/* Estilos generales para body y demás */
+
 body {
   font-family: sans-serif;
   background: linear-gradient(to right, #fceabb, #f8b500);
