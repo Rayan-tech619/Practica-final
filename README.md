@@ -67,3 +67,8 @@ S'han utilitzat diversos estils visuals per millorar la presentació:
 
 ![imatge](https://github.com/user-attachments/assets/6e220179-bc9b-4f29-81ea-ce9da679d865)
 
+## Extra
+
+- Com extra he posat un formulari i he cambiat el tipus de font.
+
+
