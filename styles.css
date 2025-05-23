@@ -1,0 +1,168 @@
+/* Contenedor general de las tarjetas */
+.car-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Cada tarjeta */
+.car {
+  display: flex;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+/* Zoom al pasar el ratón */
+.car:hover {
+  transform: scale(1.02);
+}
+
+/* Imagen del coche */
+.car img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Contenido textual: título + párrafos */
+.car-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  gap: 10px;
+}
+
+/* Nombre del coche grande y destacado */
+.car-content h2 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  color: #b22222; /* color tipo Ferrari */
+}
+
+/* Párrafos debajo */
+.car-content p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Estilos generales para body y demás */
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  margin: 0;
+  padding: 0;
+  color: #222;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(to right, #ffe259, #ffa751);
+  padding: 40px 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header-content p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-list li a:hover,
+.nav-list li a.active {
+  color: #fff;
+}
+
+footer {
+  background: linear-gradient(to right, #f7971e, #ffd200);
+  padding: 20px;
+  text-align: center;
+}
+
+@keyframes flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+.car:hover {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+  animation: flash-border 0.8s ease-in-out;
+}
+
+@keyframes flash-border {
+  0%, 100% {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.2);
+  }
+}
+.car {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.car:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.header-icon-left,
+.header-icon-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5em;
+  color: #ffa751;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.header-icon-left:hover,
+.header-icon-right:hover {
+  color: #ff5e00;
+}
+
+.header-icon-left {
+  left: 20px;
+}
+
+.header-icon-right {
+  right: 20px;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Qui som - Catàleg de Cotxes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Qui som - Catàleg de Cotxes</title>
+  <style>
+    /* Reset básico */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      color: #222;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(to right, #ffe259, #ffa751);
+      padding: 30px 20px;
+      color: #333;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #333;
+      padding: 8px 15px;
+      border-radius: 6px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      background-color: #333;
+      color: #fff;
+    }
+
+    main {
+      flex-grow: 1;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #fff9e6;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    main section.qui-som {
+      padding: 40px 30px;
+      text-align: left;
+    }
+
+    main section.qui-som h2 {
+      font-size: 2.2em;
+      margin-bottom: 25px;
+      color: #b22222;
+    }
+
+    main section.qui-som p {
+      font-size: 1.15em;
+      margin-bottom: 18px;
+      color: #444;
+    }
+
+    footer {
+      background: linear-gradient(to right, #f7971e, #ffd200);
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+      box-shadow: 0 -3px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      main section.qui-som {
+        padding: 25px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catàleg de Cotxes</h1>
+    <p>Descobreix els models més espectaculars!</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="qui.som.html" class="active">Qui som</a></li>
+        <li><a href="contactes.html">Contacte</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="qui-som">
+      <h2>Qui som</h2>
+      <p>Som una empresa apassionada pel món de l'automoció, amb més de 20 anys d'experiència en el sector.</p>
+      <p>Ens dediquem a oferir als nostres clients una selecció acurada dels millors vehicles del mercat, tant esportius com elèctrics i de luxe.</p>
+      <p>Creiem en la innovació, el disseny i la sostenibilitat com a pilars fonamentals per al futur de la mobilitat.</p>
+      <p>El nostre equip està format per professionals altament qualificats, compromesos amb la qualitat i la satisfacció del client.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Catàleg de Cotxes</p>
+  </footer>
+</body>
+</html>

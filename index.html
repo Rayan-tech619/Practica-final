@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catàleg de Cotxes</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Brillo suave y parpadeante para el título principal */
+    .header-content h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #353433;
+      text-shadow:
+        0 0 10px #353433,
+        0 0 20px #353433,
+        0 0 30px #353433;
+      animation: shineBlink 2.5s ease-in-out infinite;
+    }
+
+    @keyframes shineBlink {
+      0%, 100% {
+        text-shadow:
+          0 0 10px #353433,
+          0 0 20px #353433,
+          0 0 30px #353433;
+      }
+      50% {
+        text-shadow:
+          0 0 20px #353433,
+          0 0 30px #353433,
+          0 0 40px #353433;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Catàleg de Cotxes</h1>
+      <p>Descobreix els models més espectaculars!</p>
+    </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Inici</a></li>
+        <li><a href="qui.som.html">Qui som</a></li>
+        <li><a href="contactes.html">Contacte</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="car-list">
+      <div class="car">
+        <img src="imagen.png/Ferrari.avif" alt="Ferrari" />
+        <div class="car-content">
+          <h2>Ferrari F8</h2>
+          <p>Potència italiana amb estil esportiu.</p>
+          <p>Esportiu italià lleuger i ràpid, amb motor V8 biturbo. Combina elegància i un rendiment espectacular.</p>
+        </div>
+      </div>
+
+      <div class="car">
+        <img src="imagen.png/Lamborghini.jpg" alt="Lamborghini" />
+        <div class="car-content">
+          <h2>Lamborghini Aventador</h2>
+          <p>Una bèstia de carretera amb disseny agressiu.</p>
+          <p>Supercotxe italià amb motor V12 i estil agressiu. És sinònim de potència extrema i exclusivitat.</p>
+        </div>
+      </div>
+
+      <div class="car">
+        <img src="imagen.png/Bugatti.jpg" alt="Bugatti" />
+        <div class="car-content">
+          <h2>Bugatti chiron</h2>
+          <p>El coche més ràpid del món i dels que té més aura.</p>
+          <p>Marca francesa de supercotxes de luxe amb disseny avantguardista i velocitats extremes. És símbol d’exclusivitat, potència i tecnologia d’última generació.</p>
+        </div>
+      </div>
+
+      <div class="car">
+        <img src="imagen.png/corvette.avif" alt="Corvette" />
+        <div class="car-content">
+          <h2>Chevrolet Corvette</h2>
+          <p>El coche més estetic que hi ha.</p>
+          <p>Esportiu americà emblemàtic amb disseny agressiu i gran potència. És un símbol de rendiment i innovació a preu accessible.</p>
+        </div>
+      </div>
+
+      <div class="car">
+        <img src="imagen.png/Mercedes.avif" alt="Mercedes" />
+        <div class="car-content">
+          <h2>Mercedes-Benz T80</h2>
+          <p>Un gegant adormit.</p>
+          <p>Prototype històric dissenyat per batre rècords de velocitat a terra als anys 40. Destaca pel seu motor potent i aerodinàmica avançada per l’època.</p>
+        </div>
+      </div>
+
+      <div class="car">
+        <img src="imagen.png/Batmovil.webp" alt="Batmóvil" />
+        <div class="car-content">
+          <h2>Batmóvil 1989</h2>
+          <p>El llegendari cotxe de batman.</p>
+          <p>Vehicle icònic de la pel·lícula de Batman, amb un disseny futurista i tecnologies fictícies. Combina estil imponent i funcions espectaculars per combatre el crim.</p>
+        </div>
+      </div>
+
+      <div class="car">
+        <img src="imagen.png/Porsche.jpg" alt="Porsche" />
+        <div class="car-content">
+          <h2>Porsche 911</h2>
+          <p>Clàssic renovat amb ànima esportiva.</p>
+          <p>Icònic esportiu alemany amb disseny clàssic i prestacions excepcionals. És un referent en rendiment i maneig.</p>
+        </div>
+      </div>
+
+      <div class="car">
+        <img src="imagen.png/Tesla.avif" alt="Tesla" />
+        <div class="car-content">
+          <h2>Tesla Model S</h2>
+          <p>Elèctric, elegant i amb tecnologia de futur.</p>
+          <p>Cotxe elèctric de luxe amb gran autonomia i tecnologia avançada. Destaca per la seva potència i conducció autònoma.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <button id="toggle-layout">Canvia Layout</button>
+    <p>&copy; 2025 Catàleg de Cotxes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
