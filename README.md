@@ -21,17 +21,16 @@ El projecte està estructurat de la següent manera:
 
 S'han utilitzat diversos estils visuals per millorar la presentació:
 
+
 - Colors i fons amb degradats càlids i estètica moderna.
 
 - Tipografia clara i gran per a millorar la llegibilitat.
 
-- Targetes amb efectes hover: fan zoom i augmenten l’ombra per destacar-se visualment.
+- Targetes amb efectes hover: (quan passes el ratolí per sobre es fa una mica més gran i colorit).
 
-- Animació de brillantor al títol (@keyframes shineBlink) per cridar l’atenció.
+- Animació de brillantor al títol (@keyframes) per estetica.
 
 - Resaltat en hover amb efecte de parpelleig lleu (@keyframes flash-border).
-
-- Ús de box-shadow, transicions suaus i rounded corners per donar una sensació de profunditat i suavitat.
     
 
 ## Decisions de disseny i raonaments
@@ -47,14 +46,14 @@ S'han utilitzat diversos estils visuals per millorar la presentació:
 
 - Explica la missió i visió de l’empresa.
 
-- Parla de l’equip i els valors: innovació, sostenibilitat i disseny.
+- Parla de l’equip i els valors, per exemple innovació, sostenibilitat i disseny.
     
 
 ### Contactes.html 
 
 - Informació de contacte: adreça, telèfon i correu electrònic.
 
-- Formulari senzill per enviar missatges (sense funcionalitat backend).
+- Formulari senzill per enviar missatges.
 
 - Estètica coherent i formulari accessible.
 
