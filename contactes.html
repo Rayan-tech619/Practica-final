@@ -163,6 +163,31 @@
         max-width: 100%;
       }
     }
+    .header-content h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #cacaca;
+      text-shadow:
+        0 0 10px #cacaca,
+        0 0 20px #cacaca,
+        0 0 30px #cacaca;
+      animation: shineBlink 2.5s ease-in-out infinite;
+    }
+
+    @keyframes shineBlink {
+      0%, 100% {
+        text-shadow:
+          0 0 10px #353433,
+          0 0 20px #353433,
+          0 0 30px #353433;
+      }
+      50% {
+        text-shadow:
+          0 0 20px #353433,
+          0 0 30px #353433,
+          0 0 40px #353433;
+      }
+    }
   </style>
 </head>
 <body>
