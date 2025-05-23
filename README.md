@@ -16,8 +16,6 @@ El projecte està estructurat de la següent manera:
     - Footer: inclou un botó per canviar el layout (preparat per JavaScript) i el peu de pàgina amb drets d’autor.
 ![imatge](https://github.com/user-attachments/assets/cb9713e7-d8b6-4233-9078-4e217fed5a9e)
 
-Cada cotxe està representat com una targeta (div.car) amb una imatge a l'esquerra i el contingut textual a la dreta.
-
 
 ## Detalls sobre l’estil CSS i els efectes visuals
 
