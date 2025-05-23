@@ -21,42 +21,42 @@ El projecte està estructurat de la següent manera:
 
 S'han utilitzat diversos estils visuals per millorar la presentació:
 
-    - Colors i fons amb degradats càlids i estètica moderna.
+- Colors i fons amb degradats càlids i estètica moderna.
 
-    - Tipografia clara i gran per a millorar la llegibilitat.
+- Tipografia clara i gran per a millorar la llegibilitat.
 
-    - Targetes amb efectes hover: fan zoom i augmenten l’ombra per destacar-se visualment.
+- Targetes amb efectes hover: fan zoom i augmenten l’ombra per destacar-se visualment.
 
-    - Animació de brillantor al títol (@keyframes shineBlink) per cridar l’atenció.
+- Animació de brillantor al títol (@keyframes shineBlink) per cridar l’atenció.
 
-    - Resaltat en hover amb efecte de parpelleig lleu (@keyframes flash-border).
+- Resaltat en hover amb efecte de parpelleig lleu (@keyframes flash-border).
 
-    - Ús de box-shadow, transicions suaus i rounded corners per donar una sensació de profunditat i suavitat.
+- Ús de box-shadow, transicions suaus i rounded corners per donar una sensació de profunditat i suavitat.
     
 
 ## Decisions de disseny i raonaments
 
-    - Layout vertical centrat: És mes estétic 
+- Layout vertical centrat: És mes estétic 
 
-    - Tipografia gran i contrastos (per tota la pàgina)
+- Tipografia gran i contrastos (per tota la pàgina)
 
-    - Animacions subtils (en el titol)
+- Animacions subtils (en el titol)
 
 
 ### Qui som
 
-    Explica la missió i visió de l’empresa.
+- Explica la missió i visió de l’empresa.
 
-    Parla de l’equip i els valors: innovació, sostenibilitat i disseny.
+- Parla de l’equip i els valors: innovació, sostenibilitat i disseny.
     
 
 ### Contactes.html 
 
-    Informació de contacte: adreça, telèfon i correu electrònic.
+- Informació de contacte: adreça, telèfon i correu electrònic.
 
-    Formulari senzill per enviar missatges (sense funcionalitat backend).
+- Formulari senzill per enviar missatges (sense funcionalitat backend).
 
-    Estètica coherent i formulari accessible.
+- Estètica coherent i formulari accessible.
 
 ## Fotos
 
